@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  font-family: 'Patrick Hand', cursive;
+  background-color: #fffaf5;
+  margin: 0;
+  color: #333;
+}
+
+.home .buttons {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #ffb6b9;
+  color: white;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+/* Bookshelf */
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.book {
+  text-align: center;
+}
+.book img {
+  width: 140px;
+  height: 200px;
+  border-radius: 10px;
+}
+/* Journal & Log */
+.journal-page, .log {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #fff;
+  border: 2px dashed #d4a373;
+  border-radius: 12px;
+  padding: 20px;
+}
+.log ul {
+  list-style: none;
+}
+.log li {
+  margin: 10px 0;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
